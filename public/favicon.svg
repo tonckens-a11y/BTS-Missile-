@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Base gold bar -->
+  <rect x="10" y="28" width="44" height="20" rx="4" ry="4" fill="#facc15" stroke="#b45309" stroke-width="2"/>
+  <!-- Top bevel -->
+  <path d="M14 28l8-12h20l8 12z" fill="#fbbf24" stroke="#b45309" stroke-width="2"/>
+  <!-- Shine highlight -->
+  <circle cx="28" cy="22" r="2" fill="#fff" opacity="0.85"/>
+  <circle cx="36" cy="20" r="1.5" fill="#fff" opacity="0.6"/>
+</svg>
+
