@@ -1,8 +1,10 @@
-// vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const repoBase = '/XAU-Missile/'          // for GitHub Pages
+const isVercel = process.env.VERCEL === '1'
+
 export default defineConfig({
   plugins: [react()],
-  base: '/XAU-Missile/',   // <-- repo name between slashes
+  base: isVercel ? '/' : repoBase,
 })
